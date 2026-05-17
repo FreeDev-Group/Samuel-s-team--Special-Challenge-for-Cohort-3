@@ -101,13 +101,8 @@ Based on the use case:
 - Stored
 - Sent for administrator approval
 - I should see a message like: “Your account is pending approval”
-
-Validation should be field-specific and logical
-**Expected behavior:**
-If username is empty,  show ONLY:
- “Username is required”
-If email is empty,  show ONLY:
- “Email is required”
+-Validation should be field-specific and logical If username is empty,  show ONLY: “Username is required”
+If email is empty,  show ONLY: “Email is required”
 
 System should not check duplicates when required fields are missing
 
